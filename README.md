@@ -32,12 +32,13 @@ To further the reach of these great international collaborations, it is importan
     * [PySpark - Spark 3.1](https://spark.apache.org/docs/latest/api/python/)
 * [SQL](https://pt.wikipedia.org/wiki/SQL)
 
-We initially used Databricks to develop AWS Glue Jobs and then, with them, we can manipulate the Data Lake in Amazon S3 and query tables in Amazon Athena, using Python/PySpark and SQL. While Databricks is used for developing AWS Glue Jobs. In the end, it will be possible to deploy machine learning, from Amazon SageMaker, and create a Data Warehouse, from Amazon Redshift, to create dashboards.
+We initially used Databricks to develop AWS Glue Jobs and then, with them, we can manipulate the Data Lake in Amazon S3 and query tables in Amazon Athena, using Python/PySpark and SQL. In the end, it will be possible to deploy machine learning, from Amazon SageMaker, and create a Data Warehouse, from Amazon Redshift, to create dashboards.
 
-<div  align="center"> 
-  <img src="images/datalake_arch.png" width=100% alt="datalake_arch">
-</div>
+![datalake_arch](Images/datalake_arch.png)
 
+## Data Sources
+
+Our aim is to use as data sources the public repositories, papers and observations databases. So far, our main source data is a [Astrocatalogs repository](https://github.com/astrocatalogs/supernovae).
 
 ## Contributing 
 
