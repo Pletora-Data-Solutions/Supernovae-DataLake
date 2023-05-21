@@ -38,7 +38,11 @@ Initially, Databricks is used as a development environment for AWS Glue Jobs, th
 
 The data in the data lake can be utilized to train machine learning models, which can then be deployed using Amazon SageMaker. Additionally, Amazon Redshift can be used to create a data warehouse that stores the data in a structured format, enabling the creation of data visualization dashboards.
 
+<div align="center">
+
 ![datalake_arch](Images/datalake_arch.png)
+
+</div>
 
 ## Data Sources
 
@@ -52,7 +56,11 @@ The data is stored in an Amazon S3 bucket named `pletora-supernovae`, from there
 
 By using a multi-layered approach to data storage, we can ensure that the data in the data lake can be easily accessed and analyzed by users with varying levels of technical expertise.
 
+<div align="center">
+
 ![Storage](Images/Storage.png)
+
+</div>
 
 #### `10-landing`
 
